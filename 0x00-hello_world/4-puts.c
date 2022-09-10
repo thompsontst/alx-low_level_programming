@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
-*main print the string at the puts function
+* main print the string at the puts function
 * 
-*Description using the main function
-*This program prints programming is like building a multiligual puzzle
-returns zero
+*Description: using the main function
+*this program prints "programming is like building a multiligual puzzle
+Return: 0
 */
 int main(void)
 {

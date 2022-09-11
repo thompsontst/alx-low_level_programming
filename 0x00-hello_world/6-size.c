@@ -12,10 +12,10 @@ int main(void)
 	char charaacter;
 	float floatingtype;
 	long long int longerinteger;
-printf("Size of a char: %ld\n", sizeof(char));
-printf("Size of an int: %ld\n", sizeof(int));
-printf("Size of a long int: %ld\n", sizeof(long int));
-printf("Size of a long long int: %ld\n", sizeof(long long int));
-printf("Size of a float: %ld\n", sizeof(float));
+printf("Size of a char: %ld\n,%c\n", sizeof(char), byte(s));
+printf("Size of an int: %ld\n%c\n", sizeof(int), byte(s));
+printf("Size of a long int: %ld\n%c\n", sizeof(long int), byte(s));
+printf("Size of a long long int: %ld\n%c\n", sizeof(long long int), byte(s));
+printf("Size of a float: %ld\n%c\n", sizeof(float), byte(s));
 return (0);
 }

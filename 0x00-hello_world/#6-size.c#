@@ -1,0 +1,16 @@
+#include <stdio.h>
+/**
+ * main - uses the printf function
+ * Description: main function
+ * this program prints the size of various types on the computer.
+ * RETURN: 0
+ */
+INT MAIN(VOID)
+{%LD\n", sizeof(char))%ld\n", sizeof(char)
+printf("Size of a char: %ld\n", sizeof(char));
+printf("Size of an int: 4 byte(s)\n");
+printf("Size of a long int: 4 byte(s)\n");
+printf("Size of a long long int: 8 byte(s)\n");
+printf("Size of a float: 4 byte(s)\n");
+return (0);
+}

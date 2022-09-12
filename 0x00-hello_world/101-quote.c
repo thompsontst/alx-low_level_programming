@@ -2,7 +2,7 @@
 /**
  * main - uses the stderr function
  * Description: main function
- * this program prints a string to standard error
+ * this program prints a string to stderr
  * Return: 1
  */
 int main(void)

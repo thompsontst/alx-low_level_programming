@@ -6,8 +6,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - the output states if the random number
- * is positive, negative or zero
+ * main - prints a  random number and states if it
+ *         is positive, negative or zero
  *
  * Return: Always 0.
  */

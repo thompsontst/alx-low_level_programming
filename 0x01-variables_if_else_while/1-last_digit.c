@@ -1,8 +1,11 @@
+/**
+ * Description: program to determine the last digit
+ * author Aniekan Thompson
+ */
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 /**
- * Description: main function
  * main: this program makes use of the main function
  * Description: this program assigns arandom number to the variable
  * each time it is excuted
@@ -20,7 +23,7 @@ int main(void)
 	
 	num = n%10;
 
-	printf("last digit of %d, is %d", n, num);
+	printf("last digit of %d is %d", n, num);
 
 	if (num > 5)
 	{

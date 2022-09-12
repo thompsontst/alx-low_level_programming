@@ -1,3 +1,7 @@
+/**
+ * file: 0-positive_or_negative.c
+ */
+
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
@@ -5,7 +9,8 @@
  * description: this program assign a random number
  *to the variable each time it is executed
  * function main: the function used include rand, srand, RAND_MAX
- * main function: the output is positive, negative or zero
+ * main - the output states if the random number
+ * is positive, negative or zero
  * Return: (0)
  */
 int main(void)

@@ -15,13 +15,13 @@
  */
 int main(void)
 {
-	int n,num;
+	int n, num;
 	
 	srand(time(0));
 	
 	n = rand() - RAND_MAX / 2;
 	
-	num = n%10;
+	num = n % 10;
 
 	printf("Last digit of %d is %d", n, num);
 
@@ -34,7 +34,7 @@ int main(void)
 {
 	printf(" and is 0\n");
 }
-else
+	else
 {
 	printf(" and is less than 6 and not 0\n");
 }

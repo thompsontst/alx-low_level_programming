@@ -3,9 +3,9 @@
 #include <time.h>
 #include <stdio.h>
 /**     
-* main - entry point                            
+* main - entry point
 * Description: prints if a number is zero, negative or positive
-* Return: 0                                     
+* Return: 0
 */
 int main(void)
 {

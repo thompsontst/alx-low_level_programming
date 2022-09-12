@@ -28,8 +28,7 @@ int main(void)
 	if (num > 5)
 	{
 	printf(" and is greater than 5\n");
-
-	        }            
+ }            
 	else if (num == 0)
 {
 	printf(" and is 0\n");

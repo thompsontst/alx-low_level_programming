@@ -9,8 +9,8 @@ int main(void)
 	char lettersofthealphabet;
 	for(lettersofthealphabet = 'a'; lettersofthealphabet <= 'z'; lettersofthealphabet++)
 	{
-		printchar(lettersofthealphabet);
+		putchar(lettersofthealphabet);
 	}
-	printchar('\n');
+	putchar('\n');
 	return (0);
 }

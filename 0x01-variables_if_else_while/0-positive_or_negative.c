@@ -6,7 +6,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * context: Random numbers are been assesed and
+ * main - uses the srand,rand and RAND_MAx function
+ * Description: main function
+ * Random numbers are been assesed and
  * the outcome is to determine if it is positive,
  * negative or zero
  *

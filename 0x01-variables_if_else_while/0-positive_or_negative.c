@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
  * Description: this program assign a random number to the variable each time it is executed
  * main: the main operation used in this program include rand, srand, RAND_MAX

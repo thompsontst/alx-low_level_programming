@@ -6,19 +6,11 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - uses the srand,rand and RAND_MAx function
- * Description: main function
- * Random numbers are been assesed and
- * the outcome is to determine if it is positive,
- * negative or zero
  *
- * main-function: prints the assesed random number
- * and states if it is positive, negative or zero
+ * main - Prints a random number and states whether
+ * it is positive, negative, or zero.
  *
- * Return: (0);
- *
- * This program is set to return
- * zero since it is void at the main arguement
+ * Return: Always 0
  */
 int main(void)
 {

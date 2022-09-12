@@ -1,17 +1,11 @@
-/**
- * Description: program to determine the last digit
- * author Aniekan Thompson
- */
+
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 /**
- * main: this program makes use of the main function
- * Description: this program assigns arandom number to the variable
- * each time it is excuted
- * output: this programm prints the last digit number storeed in the variable
- * Return: (0)
- *
+ * main - entry point
+ * Description: prints if a number is zero, greater than five or less than 6
+ * Return: 0
  */
 int main(void)
 {

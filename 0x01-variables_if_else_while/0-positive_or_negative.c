@@ -4,14 +4,15 @@
 /**
  * description: this program assign a random number
  *to the variable each time it is executed
- * function main: the main operation used in this program include rand, srand, RAND_MAX
- * output: the output is positive, negative or zero
+ * function main: the function used include rand, srand, RAND_MAX
+ * main function: the output is positive, negative or zero
  * Return: (0)
  */
 int main(void)
 {
 
 	int n;
+
 	srand(time(0));
 
 	n = rand() - RAND_MAX / 2;

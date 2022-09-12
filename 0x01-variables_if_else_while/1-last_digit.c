@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
  * main: this program makes use of the main function
  * Description: this program assigns arandom number to the variable
@@ -30,6 +31,6 @@ int main(void)
 else
 {
 	printf("and is 0\n");
-	
+}
 	return (0);
 }

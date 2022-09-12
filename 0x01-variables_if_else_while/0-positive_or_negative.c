@@ -6,10 +6,17 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - prints a  random number and states if it
- *         is positive, negative or zero
+ * context: Random numbers are been assesed and
+ * the outcome is to determine if it is positive,
+ * negative or zero
  *
- * Return: Always 0.
+ * main-function: prints the assesed random number
+ * and states if it is positive, negative or zero
+ *
+ * Return: (0);
+ *
+ * This program is set to return
+ * zero since it is void at the main arguement
  */
 int main(void)
 {

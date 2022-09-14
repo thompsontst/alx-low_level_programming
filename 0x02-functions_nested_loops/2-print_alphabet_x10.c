@@ -6,10 +6,11 @@
 */
 void print_alphabet_x10(void)
 {
-  char letters, space;
+  char space;
   
-  // for (letters = 0; letters <= 9; letters++)
-  //{
+  /**
+   * for (letters = 0; letters <= 9; letters++)
+   {*/
   
      for (space = 'a'; space <= 'z'; space++)
        {
@@ -17,7 +18,8 @@ void print_alphabet_x10(void)
     _putchar(letters);
        }
   
-     // _putchar('\n');
-     //}
+     /**
+ _putchar('\n');
+ }*/
  
 }

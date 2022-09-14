@@ -5,7 +5,7 @@
 * Description: A program that displays the 9 times table.
 * Return: void
 */
-void print_times_table(int n)
+void _print_times_table(int n)
 {
 	int p, j, k;
 

@@ -10,10 +10,9 @@ char letters;
  int space;
  for (letters = 'a'; letters <= 'z'; letters++)
 {
-  int space = 0;
   for (space = 0; space <= 10; space++)
     {
-    _putchar("\n");
+    _putchar('\n');
  }
   _putchar(letters);
  }

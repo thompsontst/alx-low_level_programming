@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
 * main - entry point
 * Description: A function that prints 10 times the alphabet, in lowercase, followed by a new line.

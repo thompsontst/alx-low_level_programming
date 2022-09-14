@@ -1,11 +1,11 @@
 #include "main.h"
 /**
-* print_times_table - entry point
+* times_table - entry point
 * @n: the starting integer
 * Description: A program that displays the 9 times table.
 * Return: void
 */
-void _print_times_table(int n)
+void times_table(int n)
 {
 	int p, j, k;
 

@@ -3,10 +3,10 @@
 * add - entry point
 * @c: first integer
 * @d: second integer
-* Description: A program that displays the 24 hours time.
-* Return: void
+* Description: A program that displays the result of addition.
+* Return: result
 */
-int add(int c, int d )
+int add(int c, int d)
 {
-	return (a + b);
+	return (c + d);
 }

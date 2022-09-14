@@ -1,4 +1,4 @@
-#ifindf _H_MAIN
+#ifndef _H_MAIN
 #define _H_MAIN
 
 #include <stdio.h>
@@ -6,7 +6,7 @@
 #include <elf.h>
 #include <sys/types.h>
 #include <fcntl.h>
-#include <sys/sta.h>
+#include <sys/stat.h>
 #include <unistd.h>
 
 int _putchar(char c);

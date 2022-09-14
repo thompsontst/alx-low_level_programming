@@ -1,4 +1,5 @@
 #include "main.h"
+# include <stdio.h>
 /**
 * print_to_98 - entry point
 * @n: the integer to start with
@@ -7,13 +8,20 @@
 */
 void print_to_98(int n)
 {
-
-	for (n = 0; n <= 98; n++)
+	if (n < 98)
 	{
-				_putchar(',');
-				_putchar(' ');
-		_putchar(n / 10 + '0');
-		_putchar(n % 10 + '0');
+
+	for (; n < 98; n++)
+	{
+				printf("%d, ", n);
 	}
-	_putchar('\n');
+	}
+	if (n > 98)
+	{
+		for (; n > 98; n--)
+		{
+		printf("%d, ", n);
+		}
+	}
+	printf("%d\n", n);
 }

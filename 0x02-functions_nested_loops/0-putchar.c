@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * main - entry point
  * Description: this  prints _putchar, followed by a new line
@@ -6,7 +7,17 @@
  */
 int main(0)
 {
-	printf("_putchar");
+  char ch[8] = "_putchar";
+  
+  int p = 0;
+
+  while (p < 8)
+    {
+  
+	_putchar(ch[p]);
+	p++
+    }
+  _putchar('\n');
 
 return (0);
 }

@@ -12,7 +12,8 @@ if (c >= 'c' && c <= 'z')
 {
 	return (1);
 }
-else 
+else
+{
 return (0);
 }
 _putchar('\n');

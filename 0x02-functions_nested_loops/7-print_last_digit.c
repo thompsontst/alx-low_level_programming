@@ -6,12 +6,12 @@
 * Description: A function that computes the absolute value of an integer
 * Return: 0
 */
-int print_last_digit(int n)
+int print_last_digit(int n, m)
 {
 	n = INT_MIN;
-	int m = n%10;
+	m = n%10;
 	_putchar ('0'- m);
-return (m);
-}
+
 _putchar('\n');
+return (m);
 }

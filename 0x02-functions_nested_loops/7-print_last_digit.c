@@ -4,14 +4,19 @@
 * print_last_digit - entry point
 * @n: the integer that is use to determine the last digit
 * Description: A function that computes the absolute value of an integer
-* Return: 0
+* Return: last digit.
 */
 int print_last_digit(int n)
 {
-	n = INT_MIN;
+	int p;
 
-	_putchar ('0'- n%10);
+	if (n < 0)
+		n = -n
+p = n%10;
+	if (p < 0)
+		p = -p
 
-_putchar('\n');
-return (n%10);
+	_putchar ('0' + p);
+
+return (p);
 }

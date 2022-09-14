@@ -14,7 +14,7 @@ int main(void)
     {
   
 	_putchar(ch[p]);
-	p++
+	p++;
     }
   _putchar('\n');
 

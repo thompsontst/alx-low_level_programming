@@ -6,20 +6,19 @@
 */
 void print_alphabet_x10(void)
 {
-  char space;
+  char letter, space;
   
-  /**
-   * for (letters = 0; letters <= 9; letters++)
-   {*/
+   for (letters = 0; letters <= 9; letters++)
+   {
   
      for (space = 'a'; space <= 'z'; space++)
        {
       
-    _putchar(letters);
+	 _putchar(space);
        }
   
-     /**
+     
  _putchar('\n');
- }*/
+ }
  
 }

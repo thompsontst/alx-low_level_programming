@@ -20,6 +20,6 @@ int main(void)
 		aft += bef;
 		bef = aft - bef;
 	}
-	print("\n");
+	printf("\n");
 	return (0);
 }

@@ -16,5 +16,4 @@ char letters;
  }
   _putchar(letters);
  }
- return (0);
    }

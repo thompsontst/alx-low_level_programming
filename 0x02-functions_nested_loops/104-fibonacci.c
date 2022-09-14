@@ -12,7 +12,7 @@ int main(void)
 	unsigned long int p3 = 2;
 
 	printf("%lu", p2);
-	for (p2 = 1; p2 < 50; p2++)
+	for (p1 = 1; p1 < 50; p1++)
 	{
 		printf(", %lu", p3);
 		p3 += p2;

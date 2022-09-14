@@ -7,11 +7,11 @@
 int main(void)
 {
 	unsigned long p1;
-	unsigned long int p2 =1;
+	unsigned long int p2 = 1;
 	unsigned long int p3 = 2;
 
 	printf("%lu", p2);
-	for (p1 = 1; p1 <= 50; p1++)
+	for (p1 = 1; p1 < 50; p1++)
 	{
 		printf(", %lu", p3);
 		p3 += p2;

@@ -16,7 +16,6 @@ int main(void)
 		printf(", %lu", p3);
 		p3 += p2;
 		p2 = p3 - p2;
-	
 	}
 printf("\n");
 	return (0);

@@ -7,21 +7,17 @@
 */
 int main(void)
 {
-	int fib;
-	unsigned long p1 =0;
+	unsigned long p1;
 	unsigned long int p2 =1;
-	unsigned long int p3;
+	unsigned long int p3 = 2;
 
-	for (fib = 1; fib < 50; fib++)
+	printf("%lu", p2);
+	for (p2 = 1; p2 < 50; p2++)
 	{
-		p3 = p2 =p1;
 		printf(", %lu", p3);
-		p1 = p2 =p3;
-
-		if (fib ==49)
+		p3 += p2;
+		p2 = p3 - p2;
 			printf("\n");
-		else 
-			printf(", ");
 	}
 
 	return (0);

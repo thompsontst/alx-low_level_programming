@@ -13,9 +13,9 @@ char letters, space;
 for (letters = 0; letters <= 9; letters++)
 {
 for (space = 'a'; space <= 'z'; space++)
- {	 
+{
 _putchar(space);
 }
- _putchar('\n');
+_putchar('\n');
 }
 }

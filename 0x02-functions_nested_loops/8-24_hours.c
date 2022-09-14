@@ -1,11 +1,10 @@
 #include "main.h"
 /**
 * jack_bauer - entry point
-* @n: the integer that is use to determine the last digit
-* Description: A function that computes the absolute value of an integer
+* Description: A program that displays the 24 hours time.
 * Return: void
 */
-void jack_bauer(void);
+void jack_bauer(void)
 {
 	int p, j = 0;
 

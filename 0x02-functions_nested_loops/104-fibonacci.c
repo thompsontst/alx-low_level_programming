@@ -1,4 +1,3 @@
-#include "main.h"
 #include <limits.h>
 /**
 * main - entry point
@@ -12,13 +11,13 @@ int main(void)
 	unsigned long int p3 = 2;
 
 	printf("%lu", p2);
-	for (p1 = 1; p1 < 50; p1++)
+	for (p1 = 1; p1 < 100; p1++)
 	{
 		printf(", %lu", p3);
 		p3 += p2;
 		p2 = p3 - p2;
-			printf("\n");
+	
 	}
-
+printf("\n");
 	return (0);
 }

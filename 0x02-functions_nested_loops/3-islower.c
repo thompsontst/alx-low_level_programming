@@ -2,15 +2,13 @@
 /**
 * int _islower(int c) - entry point
 * main - entry point
-* Description: A function that prints 10 times the alphabet,
-* in lowercase, followed by a new line.
-* print_alphabet_x10: print abc 10 times
+* Description: A function that prints that checks for lowercase,
+* int _islower(int c): returns 1 if true and 0 if false.
 * Return: 0
 */
 int _islower(int c)
 {
-int space = 'c';
-if ( islower(space) )
+if (c >= 'c' && c <= 'z')
 {
 	return (1);
 }

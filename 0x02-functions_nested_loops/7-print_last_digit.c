@@ -6,7 +6,7 @@
 * Description: A function that computes the absolute value of an integer
 * Return: 0
 */
-int print_last_digit(int n, m)
+int print_last_digit(int n)
 {
 	n = INT_MIN;
 	m = n%10;

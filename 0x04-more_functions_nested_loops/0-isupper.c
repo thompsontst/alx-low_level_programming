@@ -1,15 +1,15 @@
 #include "main.h"
 /**
 * _isupper - entry point
-* @c: the letter the check is conducted on
+* @C: the letter the check is conducted on
 * main - entry point
 * Description: A function that prints that checks for uppercase,
 * int _islower(int c): returns 1 if true and 0 if false.
 * Return: 0
 */
-int _isupper(int c)
+int _isupper(int C)
 {
-if (c >= 'A' && c <= 'Z')
+if (C >= 'A' && C <= 'Z')
 {
 	return (1);
 }

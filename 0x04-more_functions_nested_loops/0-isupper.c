@@ -15,5 +15,4 @@ if (c >= 'A' && c <= 'Z')
 else
 return (0);
 
-_putchar('\n');
 }

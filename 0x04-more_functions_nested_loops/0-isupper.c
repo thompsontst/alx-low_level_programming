@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
 * _isupper - entry point
 * @C: the letter the check is conducted on
@@ -10,7 +9,7 @@
 */
 int _isupper(int c)
 {
-if (c >= 'A' && c <= 'Z')i
+if (c >= 'A' && c <= 'Z')
 
 	return (1);
 else

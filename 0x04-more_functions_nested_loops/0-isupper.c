@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * _isupper - entry point
-* @c: the letter the check is conducted on
+* @c: the letter the check is conducted
 * main - entry point
 * Description: A function that prints that checks for lowercase,
 * int _islower(int c): returns 1 if true and 0 if false.

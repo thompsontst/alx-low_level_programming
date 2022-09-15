@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
 * print_numbers - entry point
 * Description: A function  that checks for digits,

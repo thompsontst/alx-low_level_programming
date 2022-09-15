@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
 * _isupper - entry point
 * @C: the letter the check is conducted on

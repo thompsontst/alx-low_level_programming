@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-* main - entry point 
+* main - entry point
 * Description: A function that prints 0 t0 100, buzz for multiples of 5,
 * fizz for multiples of 3
 * fizzbuzz for multiples of 15,

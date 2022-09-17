@@ -15,7 +15,7 @@ for (letters = 0; letters <= 10; letters++)
 {
 for (space = 0; space <= 14; space++)
 {
-_putchar(space + '0');
+_putchar(space);
 }
 _putchar('\n');
 }

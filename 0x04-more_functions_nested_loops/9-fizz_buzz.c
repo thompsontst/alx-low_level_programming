@@ -11,28 +11,27 @@
 * print_alphabet_x10: print abc 10 times
 * Return: 0
 */
-int main(int n)
+int main(void)
 {
+int n;
 
 for (n = 0; n < 101; n++)
 {
 if (n % 15 = 0)
 {
-_putchar('FizzBuzz');
+printf("FizzBuzz");
 }
 else if (n % 5 = 0)
 {
-_putchar('Buzz');
+printf("Buzz");
 }
 else if (n % 3 = 0)
 {
-_putchar('Fizz')
+printf("Fizz")
 }
 else
 {
-_putchar(space / 10 + '0');
-_putchar(space % 10 + '0');
+printf("%d\n", n)
 }
 }
-_putchar('\n');
 }

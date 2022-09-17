@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-* print_most_numbers - entry point
+* print_numbers - entry point
 */
-void print_most_numbers(void)
+void print_numbers(void)
 {
 int x;
 

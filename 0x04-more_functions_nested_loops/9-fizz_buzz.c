@@ -17,15 +17,15 @@ int n;
 
 for (n = 0; n < 101; n++)
 {
-if(n % 15 = 0)
+if(100 % 15 = 0)
 {
 printf("FizzBuzz");
 }
-else if(n % 5 = 0)
+else if(100 % 5 = 0)
 {
 printf("Buzz");
 }
-else if(n % 3 = 0)
+else if(100 % 3 = 0)
 {
 printf("Fizz");
 }

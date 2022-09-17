@@ -11,9 +11,9 @@ void more_numbers(void)
 {
 int letters, space;
 
-for (letters = 0; letters < 15; letters++)
+for (letters = 0; letters <= 10; letters++)
 {
-for (space = 0; space < 11; space++)
+for (space = 0; space <= 14; space++)
 {
 _putchar(space + '0');
 }

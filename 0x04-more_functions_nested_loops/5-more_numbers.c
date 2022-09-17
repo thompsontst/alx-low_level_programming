@@ -15,7 +15,7 @@ for (letters = 0; letters <= 9; letters++)
 {
     for (space = 0; space <= 14; space++)
 {
-        if (space > 10)
+        if (space >= 10)
 _putchar(space / 10 + '0');
 _putchar(space % 10 + '0');
 }

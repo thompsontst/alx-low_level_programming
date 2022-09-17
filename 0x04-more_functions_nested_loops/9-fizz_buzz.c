@@ -6,7 +6,6 @@
 * Description: A function that prints 0 t0 100, buzz for multiples of 5,
 * fizz for multiples of 3
 * fizzbuzz for multiples of 15,
-* numbers, followed by a new line.
 * print_alphabet_x10: print abc 10 times
 * Return: 0
 */

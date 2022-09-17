@@ -10,9 +10,10 @@
 void more_numbers(void)
 {
 int letters, space;
-for (letters = 0; letters < 15; letters++)
+
+for (letters = 0; letters < 11; letters++)
 {
-for (space = 0; space < 11; space++)
+for (space = 0; space < 15; space++)
 {
 _putchar(space);
 }

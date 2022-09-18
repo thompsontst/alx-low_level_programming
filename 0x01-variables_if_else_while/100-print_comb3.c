@@ -1,4 +1,4 @@
-include <stdio.h>
+#include <stdio.h>
 /**
  * main - entry point
  * Description: a program that prints all possible

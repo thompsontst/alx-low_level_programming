@@ -9,7 +9,7 @@ int main(void)
 {
 int letters;
 
-for (letters = '0'; letters <= '9'; letters++)
+for (letters = 0; letters <= 9; letters++)
 putchar(letters + '0');
 if (letters <= 9)
 putchar(',');

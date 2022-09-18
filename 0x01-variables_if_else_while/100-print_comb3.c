@@ -7,16 +7,19 @@
  */
 int main(void)
 {
-int letters;
+int letters; numbers
 
-for (letters = 0; letters <= 89; letters++)
+for (letters = 1; letters <= 9; letters++)
 {
-putchar(letters / 10 + '0');
+    for (numbers = letters + 1; numbers < 10; numbers++)
+{
 putchar(letters % 10 + '0');
-if (letters < 89)
+putchar(numbers % 10 + '0');
+if (letters == 8 numbers == 9)
 {
 putchar(',');
 putchar(' ');
+}
 }
 }
 putchar('\n');

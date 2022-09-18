@@ -13,7 +13,7 @@ for (n = 0; n < 1000; n++)
 {
 letters = n / 10;
 numbers = (n /10) % 10;
-values = (n % 10;
+values = n % 10;
 if  (letters < numbers && numbers < values)
 {
 putchar(letters + '0');

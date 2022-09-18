@@ -17,7 +17,7 @@ if (letters < 9)
 putchar(',');
 putchar(' ');
 }
-putchar('\n');
 }
+putchar('\n');
 return (0);
 }

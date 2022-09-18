@@ -15,8 +15,8 @@ if (n > 0)
 {
 for (line = 0; line < n; line++)
 
+_putchar(' ')
 _putchar('\\\n');
-_putchar('\n');
 }
 _putchar('\n');
 

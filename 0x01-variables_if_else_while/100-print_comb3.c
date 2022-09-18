@@ -12,7 +12,7 @@ int letters;
 for (letters = 0; letters <= 99; letters++)
 {
 putchar(letters / 10 + '0');
-putchar( letters % 10 + '0')
+putchar( letters % 10 + '0');
 if (letters < 99)
 {
 putchar(',');

@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - entry point
- * Description: a program that prints all the numbers of 
+ * Description: a program that prints all the numbers of
  * base 16 in lowercase, followed by a new line.
  * Return: 0
  */

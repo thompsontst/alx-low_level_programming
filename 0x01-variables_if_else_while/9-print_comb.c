@@ -10,11 +10,9 @@ int main(void)
 int letters;
 
 for (letters = 0; letters <= 9; letters++)
-{
 putchar(letters + '0');
 putchar(',');
 putchar(' ');
-}
 putchar('\n');
 return (0);
 }

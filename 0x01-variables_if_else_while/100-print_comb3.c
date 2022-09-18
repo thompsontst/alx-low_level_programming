@@ -9,13 +9,13 @@ int main(void)
 {
 int letters, numbers;
 
-for (letters = 1; letters <= 9; letters++)
+for (letters = 0; letters <= 9; letters++)
 {
-    for (numbers = letters + 1; numbers < 10; numbers++)
+    for (numbers = letters + 1; numbers <= 9; numbers++)
 {
 putchar(letters % 10 + '0');
 putchar(numbers % 10 + '0');
-if (letters == 8 && numbers == 9)
+if (letters < 8)
 {
 putchar(',');
 putchar(' ');

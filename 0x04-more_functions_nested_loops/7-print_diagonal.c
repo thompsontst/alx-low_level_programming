@@ -12,7 +12,7 @@ void print_diagonal(int n)
 {
 int line, space;
 if (n <= 0)
-
+_putchar('\n')
 for (line = 0; line < n; line++)
 {
 for (space = 0; space <= line; space++)
@@ -24,7 +24,7 @@ _putchar('\n');
 }
 else
 {
-_putchar('\n');
+_putchar(' ');
 }
 }
 }

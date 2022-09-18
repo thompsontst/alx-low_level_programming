@@ -15,7 +15,7 @@ if (size <= 0)
 _putchar('\n');
 for (line = 0; line < size; line++)
 {
-for (space = 0; space <= line; space++)
+for (space = 0; space < size; space++)
 
 _putchar('#');
 _putchar('\n');

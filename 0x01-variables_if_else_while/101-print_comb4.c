@@ -7,19 +7,20 @@
  */
 int main(void)
 {
-int letters, numbers, values;
+int n, letters, numbers, values; 
 
-for (letters = 0; letters <= 7; letters++)
+for (n = 0; n < 1000; n++)
 {
-for (numbers = letters + 1; numbers <= 8; numbers++)
+letters = n / 10;
+numbers = (n /10) % 10;
+values = (n % 10;
+if  (letters < numbers && numbers < values)
 {
-for (values = letters + 1; values <= 9; values++)
+putchar(letters + '0');
+putchar((numbers + '0');
+putchar(values + '0');
+if (n < 700)
 {
-putchar(letters % 10 + '0');
-putchar(numbers % 10 + '0');
-putchar(values % 10 + '0');
-if (letters == 7 && numbers == 8 && values == 9)
-continue;
 putchar(',');
 putchar(' ');
 

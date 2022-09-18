@@ -15,7 +15,7 @@ for (letters = 1; letters <= 9; letters++)
 {
 putchar(letters % 10 + '0');
 putchar(numbers % 10 + '0');
-if (letters == 8 numbers == 9)
+if (letters == 8 && numbers == 9)
 {
 putchar(',');
 putchar(' ');

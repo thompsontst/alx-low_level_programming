@@ -11,7 +11,7 @@ char letters;
 for (letters = '0'; letters <= '9'; letters++)
 putchar(letters);
 for (letters = 'a'; letters <= 'f'; letters++)
+putchar(letters);
 putchar('\n');
-putchar(n)
 return (0);
 }

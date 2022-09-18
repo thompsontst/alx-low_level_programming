@@ -9,11 +9,11 @@ int main(void)
 {
 int letters, numbers, values;
 
-for (letters = 0; letters <= 9; letters++)
+for (letters = 0; letters <= 7; letters++)
 {
-for (numbers = letters + 1; numbers <= 9; numbers++)
+for (numbers = letters + 1; numbers <= 7; numbers++)
 {
-for (values = letters + 1; values <= 9; values++)
+for (values = letters + 1; values <= 7; values++)
 {
 putchar(letters % 10 + '0');
 putchar(numbers % 10 + '0');

@@ -9,11 +9,11 @@ int main(void)
 {
 int letters;
 
-for (letters = 0; letters <= 99; letters++)
+for (letters = 0; letters <= 89; letters++)
 {
 putchar(letters / 10 + '0');
-putchar( letters % 10 + '0');
-if (letters < 99)
+putchar(letters % 10 + '0');
+if (letters < 89)
 {
 putchar(',');
 putchar(' ');

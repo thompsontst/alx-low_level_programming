@@ -14,7 +14,7 @@ for (letters = 0; letters <= 9; letters++)
 putchar(letters + '0');
 putchar(',');
 putchar(' ');
-putchar('\n');
 }
+putchar('\n');
 return (0);
 }

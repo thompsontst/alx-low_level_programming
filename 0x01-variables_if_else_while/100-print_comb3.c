@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-int letters; numbers
+int letters, numbers;
 
 for (letters = 1; letters <= 9; letters++)
 {

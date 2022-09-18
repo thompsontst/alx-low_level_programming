@@ -7,12 +7,12 @@
  */
 int main(void)
 {
-int n, letters, numbers, values; 
+int n, letters, numbers, values;
 
 for (n = 0; n < 1000; n++)
 {
-letters = n / 10;
-numbers = (n /10) % 10;
+letters = n / 100;
+numbers = (n / 10) % 10;
 values = n % 10;
 if  (letters < numbers && numbers < values)
 {

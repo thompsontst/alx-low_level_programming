@@ -17,13 +17,12 @@ values = n % 10;
 if  (letters < numbers && numbers < values)
 {
 putchar(letters + '0');
-putchar((numbers + '0');
+putchar(numbers + '0');
 putchar(values + '0');
 if (n < 700)
 {
 putchar(',');
 putchar(' ');
-
 }
 }
 }

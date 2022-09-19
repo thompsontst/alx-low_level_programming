@@ -16,10 +16,10 @@ _putchar('\n');
 for (line = 0; line <= size; line++)
 {
 for (space = size - space; space > line; space--)
-_purchar(' ');
+_putchar(' ');
 for (space = 0; space < line; space++)
 _putchar('#');
-if (line , size)
+if (line > size)
 _putchar('\n');
 }
 }
